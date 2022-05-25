@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .headpart {
+            background-color: rgba(0, 0, 0, 0.207);
+        }
+
+        ul {
+            display: flex;
+            justify-content: end;
+            font-weight: bold;
+            list-style: none;
+            padding: 14px;
+        }
+
+        li {
+            margin-right: 15px;
+        }
+
+        p {
+            border: 1px solid black;
+            height: 45vh;
+            width: 60vw;
+            margin: 20px auto;
+            background: linear-gradient(45deg,orangered,grey,yellow);
+        }
+        .p1{
+         
+            border: 1px solid black;
+            height: 35vh;
+            width: 30vw;
+            margin: 20px auto;
+        }
+        .box1{
+            display: flex;
+        }
+        footer{
+          text-align: center;
+        }
+        .lastpart{
+            background: linear-gradient(90deg,red,rgb(0, 204, 255),green);
+            padding: 20px;
+        }
+        @media screen and (max-width:385px){
+            .headpart{
+                background-color: brown;
+            }
+            ul{
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+            }
+            .box1{
+             flex-direction: column;
+            }
+            .p1{
+                width: 90%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="headpart">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>contact</li>
+            <li>sign in</li>
+            <li>help</li>
+            <li>feedback</li>
+        </ul>
+    </div>
+    <div class="middlepart">
+        <p></p>
+        <div class="box1">
+        <div class="p1"></div>
+        <div class="p1"></div>
+        <div class="p1"></div>
+    </div>
+    </div>
+    <div class="lastpart">
+        <footer>Copyright made by @SAIFMANIHAR</footer>
+    </div>
+</body>
+
+</html>
